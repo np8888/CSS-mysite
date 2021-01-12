@@ -1,2 +1,2 @@
 # CSS-mysite
-A brief intro to me in CSS
+A quick look at me, in CSS!
