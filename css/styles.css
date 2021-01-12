@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Parisienne&family=Poppins&display=swap');
+body{
+  margin:0;
+  text-align:center;
+}
+.topContainer{
+  background-color: #133b5c;
+  margin:0;
+  padding-top: 40px;
+  position:relative;
+}
+h1{
+  margin:0;
+  font-family: monospace, sans-serif;
+  font-size: 5.6rem;
+  color:#ffffff;
+}
+.midContainer{
+
+}
+.bottomContainer{
+
+}
+.top-cloud{
+  position:absolute;
+  top:50px;
+  left:1200px;
+  height:10em;
+  width:10em;
+}
+.bottom-cloud{
+  position:absolute;
+  height:10%;
+  width:8%;
+  top:250px;
+  left:350px;
+}
+span{
+  text-decoration: underline;
+}
+.profile-image{
+  border-radius:50%;
+  height:150px;
+  width:150px;
+  padding-top: 40px;
+}
+p{
+  font-family: 'Open sans', sans-serif;
+  line-height: 1;
+}
+h3{
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.6rem;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+h2{
+  font-family: 'Poppins', sans-serif;
+  font-size:2.7rem;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-weight: normal;
+}
+.moon{
+  margin: 2em auto 2em auto;
+  height:25%;
+  width:25%;
+  display:none;
+}
+.stars{
+  position:absolute;
+  left:0;
+  top:80px;
+}
+.stars2{
+  position: absolute;
+  right:0;
+  top:200px;
+}
+.typewriter {
+  color: #fff;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation:
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+  width: 44%
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 40% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
+.subtitle{
+  color: #ffffff;
+  margin-bottom: 10px;
+  padding-bottom: 40px;
+}
+.toprule{
+  margin:40px auto 40px auto;
+  width:30%;
+}
+
+.skill-row{
+  width:50%;
+  margin:100px auto 100px auto;
+  display:block;
+  text-align: left;
+
+}
+.skill-image-left{
+  height:150px;
+  width:150px;
+  border-radius: 50%;
+  float:left;
+  margin-right: 10px;
+}
+.skill-image-right{
+  height:150px;
+  width:150px;
+  border-radius: 50%;
+  float:right;
+  margin-left: 10px;
+}
+.first-row{
+  margin:30px auto 100px auto;
+  width:50%;
+  text-align: left;
+}
+.skill-text{
+  line-height: 2;
+}
+.contact-me{
+  width:50%;
+  margin:auto;
+}
+.BUTTON_QIU {
+   -webkit-border-radius: 100px;
+   -moz-border-radius: 100px;
+   border-radius: 100px;
+   color: #FFFFFF;
+   font-family: Poppins;
+   font-size: 14px;
+   font-weight: 100;
+   padding: 27px;
+   background-color: #133B5C;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #337FED 0;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin-bottom: 50px;
+}
+
+.BUTTON_QIU:hover {
+   background: #1E62D0;
+   border: solid #000000 1px;
+   -webkit-border-radius: 100px;
+   -moz-border-radius: 100px;
+   border-radius: 100px;
+   text-decoration: none;
+   margin-bottom: 50px;
+}
+.bottom-container{
+  background-color: #133b5c;
+  margin:0;
+  padding-top: 40px;
+  position:relative;
+  padding-bottom: 40px;
+}
+.footer-link{
+  color: white;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
